@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+    <script>
+        function startTimer() {
+            setTimeout(function() {
+                document.getElementById("timedForm").submit();
+            }, 5000); 
+        }
+    </script>
+</head>
+<body onload="startTimer()">
+    <div class="container">
+        <form id="timedForm" action="/submit" method="post">
+            <div class="form-group">
+                <label for="fname">First Name:</label>
+                <input id="fname" type="text" name="fname">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

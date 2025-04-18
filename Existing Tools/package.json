@@ -1,0 +1,22 @@
+{
+  "name": "a11ytoolsrunning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axe-core": "^4.3.5",
+    "chai": "^4.5.0",
+    "mocha": "^10.7.0",
+    "puppeteer": "^22.13.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "accessibility-checker": "^3.1.23"
+  }
+}
